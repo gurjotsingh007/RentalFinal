@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "basements",
+  "info": {
+    "singularName": "basement",
+    "pluralName": "basements",
+    "displayName": "Basement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "bhk": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
